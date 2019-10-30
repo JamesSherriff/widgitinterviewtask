@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script src="javascript/main.js"></script>
+        <link rel="stylesheet" href="stylesheets/main.css"/>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="flashcard">
+                <p class="multiple-message">Choose a symbol...</p>
+                <span class="arrow-left" id="previous-symbol" onclick="nextSymbol()"></span>
+                <div class="flashcard-image-holder">
+                    <img src="" id="flashcard-image">
+                </div>        
+                <input id="flashcard-text-input" oninput="textChanged(this)">
+                <span class="arrow-right" id="next-symbol" onclick="nextSymbol()"></span>
+            </div>
+        </div>
+    </body>
+</html>
